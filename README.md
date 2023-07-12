@@ -13,7 +13,7 @@ ffmpeg
 
 *t1a... mean time in this format XX:XX:XX where first is hour, then min and then seconds*
 
-## Example 
+## Example with 3 extracts
 
 ![mont](https://github.com/iro0087/cli_auto-cut/assets/114911243/312f40f9-1ebf-46bb-a8a9-162dc4a7616b)
 
