@@ -74,8 +74,6 @@ do
         
         IFS=- read -r var1b var2 <<< $ends
 
-        echo "var1 ${var1}"
-
         name_order="file ${order}.${file}"
 
         echo $name_order >> order.txt
@@ -93,8 +91,6 @@ do
         ends=$(echo $ends | cut -c $com-$fin)
 
         var2=${#var2}
-
-        echo "var1 ${var1} var1b ${var1b}"
 
 done
 
