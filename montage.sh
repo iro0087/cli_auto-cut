@@ -63,10 +63,8 @@ done
 var2=10
 order=0
 
-com=1
+com=10
 fin=${#beg}
-
-echo "ends ${ends}"
 
 while [ $var2 -ne 0 ]
 do
@@ -84,13 +82,17 @@ do
 
         ffmpeg -i $name -ss $var1 -to $var1b -acodec copy $r_file  
 
-        com=$((com+9))
+        #com=$((com+9))
 
         beg=$(echo $beg | cut -c $com-$fin)
 
         ends=$(echo $ends | cut -c $com-$fin)
 
         var2=${#var2}
+
+        printf '\e[1;34m%-6s\e[m' "var1 ${var1} var1b ${var1b} beg ${beg}"
+
+        #echo "var1 ${var1} var1b ${var1b}"
 
 done
 
