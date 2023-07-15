@@ -1,7 +1,7 @@
 # cli_auto-cut
 Automate extraction of media using ffmpeg (multiple extractions with one command line)
 
-**Create as much extracts as needed in a single command line**
+**Create as much extracts as needed in a single command line and merge them**
 
 ## Requirements
 
